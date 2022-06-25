@@ -16,7 +16,7 @@
                     <div class="container">
                         <<a href="../A3/reg.php">SIGN IN</a>
                         <a>CONTACT US</a>
-                        <a href="../Homepage.php">HOME</a>
+                        <a href="../index.php">HOME</a>
                     </div>
                 </div>
             </div>

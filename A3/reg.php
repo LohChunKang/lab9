@@ -15,7 +15,7 @@
 			<a href="reg.html"><img src="img/logoKFC.png" width="200" height="80" alt=""/></a>
 			<nav>
 				<ul class="header">
-				<li><a href="../Homepage.php">HOME</a></li>
+				<li><a href="../index.php">HOME</a></li>
 					<li><a href="menu.php">MENU</a></li>
 					<li><a href="order.php">ORDER</a></li>
 					<li><a href="reg.php">SIGN IN</a></li>
