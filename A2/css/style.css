@@ -1,0 +1,298 @@
+#wrapper{font-family: tahoma;}
+.container
+{
+    width: 100%;
+    max-width: 1350px;
+    margin:0 auto;
+}
+#subheader
+{
+    width: 100%;
+    height: 100px;
+    background: #fdf5e6;
+    color: black;
+    margin-top: 5px;
+}
+#sidelogo
+{
+    float: left;
+}
+#sidelogo img
+{
+    margin-top: 5px;
+    height: 90px;
+    width: 200px;
+}
+#subheader a
+{
+    float: right;
+    line-height: 30px;
+    color: red;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 25px;
+}
+#subheader a:hover
+{
+    transition: 0.1s;
+    color: grey;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1503px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*category*/
+#heading
+{
+   width: 100%;
+   height: auto;
+   float: left;
+   text-align: center;
+   color: red; 
+   font-size: 30px;
+   background: 	#fdf5e6;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+
+.categorybox
+{
+    height: 320px;
+    width: 280px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 0 20 30;
+}
+.categorybox img
+{
+    height: 250px;
+    width: 350px;
+    transition: all .5s ease;
+}
+.categorybox span
+{
+    width: 100%;
+    background:rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    bottom: 100px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+.categorybox:hover>img
+{
+    transform: scale(1.3,1.3);
+    transition: all .5s ease;
+}
+.categorybox:hover span
+{
+    color: grey;
+}
+/*product*/
+.product
+{
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    margin: 0 20 30 0;
+    position: relative;
+    float: left;
+}
+.product img
+{
+    width: 250px;
+    height: 180px;
+}
+.text
+{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.product:hover .text
+{
+    opacity: 1;
+}
+.feature
+{
+    text-align: center;
+    margin-top: -150px;
+    transition: all .5s ease;
+}
+.feature p
+{
+    color: white;
+    font-family: verdana;
+}
+.feature input
+{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+.product:hover .feature
+{
+    margin-top: 80px;
+    transition: all .5s ease;
+}
+.offer
+{
+    width: 400px;
+    float: left;
+    margin-right: 230px;
+}
+.offer img
+{
+  height: 250px;
+}
+.offer:last-child
+{
+    margin-right: 0px;
+}
+#footer
+{
+    margin-top: 35px;
+    width: 116%;
+    height: 300px;
+    background: #fdf5e6;
+    color: black;
+    float: left;
+    margin-left: -105px;
+}
+.footer_sub
+{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+}
+.footer_sub a
+{
+    color: black;
+}
+.footer_sub a:hover
+{
+    transition: 0.1s;
+    color: grey;
+}
+.footer_sub_2
+{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.email
+{
+    width: 200px;
+    border: none;
+    height: 50px;
+    padding: 15px;
+}
+.submit
+{
+    height: 50px;
+    border: none;
+    background: orange;
+}
+.sub
+{
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+}
+.copyright
+{
+    padding-top: 100px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    padding-left:200px;
+}

@@ -1,0 +1,152 @@
+#wrapper{font-family: tahoma;}
+.container
+{
+    width: 95%;
+    margin:0 auto;
+}
+#subheader
+{
+    width: 100%;
+    height: 100px;
+    background: #fdf5e6;
+    color: black;
+    margin-top: 5px;
+}
+#sidelogo
+{
+    float: left;
+}
+#sidelogo img
+{
+    margin-top: 5px;
+    height: 90px;
+    width: 200px;
+}
+#subheader a
+{
+    float: right;
+    line-height: 30px;
+    color: red;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 25px;
+}
+#subheader a:hover
+{
+    transition: 0.1s;
+    color: grey;
+}
+
+#footer
+{
+    margin-top: 35px;
+    width: 100%;
+    height: 300px;
+    background: #fdf5e6;
+    color: black;
+    float: left;
+}
+.footer_sub
+{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+}
+.footer_sub a
+{
+    color: black;
+}
+.footer_sub a:hover
+{
+    transition: 0.1s;
+    color: grey;
+}
+.footer_sub_2
+{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.email
+{
+    width: 200px;
+    border: none;
+    height: 50px;
+    padding: 15px;
+}
+.submit
+{
+    height: 50px;
+    border: none;
+    background: orange;
+}
+.sub
+{
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+}
+.copyright
+{
+    padding-top: 100px;
+    color: lightgrey;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 200px;
+}
+#heading
+{
+   width: 100%;
+   height: auto;
+   float: left;
+   color: black; 
+   font-size: 20px;
+   background: gainsboro;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+#heading h2
+{
+    line-height: 45px;
+    border-left: 15px solid #000000;
+    padding-left: 10px;
+}
+.product h2
+{
+    text-align: center;
+    background: #fdf5e6;
+    color: red;
+    font-size: 50px;
+}
+.product img
+{
+    width: 500px;
+    height: 380px;
+}
+.product p
+{
+    text-align: center;
+    font-size: 30px;
+}
+.product table
+{
+    margin: auto;
+}
+.product td
+{
+    width: 500px;
+}
+.product button
+{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background:red;
+    color: white;
+}
+
